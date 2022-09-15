@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_background_book"
+    android:orientation="vertical"
+    tools:context=".BookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/menuGrandpaImage"
+            android:contentDescription="@string/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_grandpa" />
+
+        <ImageView
+            android:id="@+id/menuFarmSelectedImage"
+            android:contentDescription="@string/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_grow" />
+
+        <ImageView
+            android:id="@+id/menuBookSelectedImage"
+            android:contentDescription="@string/image"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_book_selected" />
+
+        <ImageView
+            android:id="@+id/menuExplainImage"
+            android:contentDescription="@string/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_explain" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="45dp">
+
+        <ImageView
+            android:id="@+id/menuBookImage"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_pre" />
+
+        <ImageView
+            android:id="@+id/menuExplainSelectedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_number_page_1" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_number_page_2" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_next" />
+    </LinearLayout>
+</LinearLayout>

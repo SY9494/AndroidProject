@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_background_main"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/menuGrandpaImage"
+            android:contentDescription="@string/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_grandpa" />
+
+        <ImageView
+            android:id="@+id/menuFarmSelectedImage"
+            android:contentDescription="@string/image"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_grow_selected" />
+
+        <ImageView
+            android:id="@+id/menuBookImage"
+            android:contentDescription="@string/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_book" />
+
+        <ImageView
+            android:id="@+id/menuExplainImage"
+            android:contentDescription="@string/image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_menu_explain" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/warmer"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/image_warmer" />
+
+        <ImageView
+            android:id="@+id/humidifier"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/image_humidifier" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/image_wood"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/nameko_rare"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare" />
+
+            <ImageView
+                android:id="@+id/nameko_twins"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare04" />
+
+            <ImageView
+                android:id="@+id/nameko_normal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko" />
+
+            <ImageView
+                android:id="@+id/nameko_red"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare02" />
+
+            <ImageView
+                android:id="@+id/nameko_touth"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare07" />
+
+            <ImageView
+                android:id="@+id/nameko_green"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare08" />
+
+            <ImageView
+                android:id="@+id/nameko_stone"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare05" />
+
+            <ImageView
+                android:id="@+id/nameko_niddle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare06" />
+
+            <ImageView
+                android:id="@+id/nameko_long"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/image_nameko_rare03" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/image_gauge_border" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:orientation="horizontal"
+        android:paddingTop="40dp">
+
+        <ImageView
+            android:id="@+id/Np"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/image_number_np" />
+
+        <ImageView
+            android:id="@+id/heater"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/image_heater" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/food1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_food_01" />
+
+        <ImageView
+            android:id="@+id/food2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_food_02" />
+
+        <ImageView
+            android:id="@+id/food3"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_food_03" />
+
+        <ImageView
+            android:id="@+id/food4"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_food_04" />
+
+        <ImageView
+            android:id="@+id/food5"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/image_food_05" />
+    </LinearLayout>
+
+</LinearLayout>

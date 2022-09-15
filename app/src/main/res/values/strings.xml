@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nameko</string>
+    <string name="image">image</string>
+    <string name="image_button">image_button</string>
+</resources>
